@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# An example of a quick shell function to reduce typing!
+function convert() { py map_csv_to_nljson.py "data/source/$1.csv" "$1"; }
+
+# Use this in the BQ console when uploading data to big tables
+function load() { bq load --source_format=NEWLINE_DELIMITED_JSON "${PROJECT}:${DATASET}.$1" "data/$1.nljson"; }
