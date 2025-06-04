@@ -164,3 +164,4 @@ cython_debug/
 # App
 output/
 data/
+.DS_Store
