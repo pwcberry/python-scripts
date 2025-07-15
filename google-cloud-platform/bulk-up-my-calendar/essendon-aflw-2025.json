@@ -1,0 +1,90 @@
+[
+  {
+    "competition": "AFLW",
+    "round": 2,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "West Coast",
+    "away_abbr": "WCE",
+    "start": "2025-08-24T13:05:00+10:00",
+    "end": "2025-08-24T15:05:00+10:00",
+    "venue": "Windy Hill, Cnr Napier & Brewster St, Essendon VIC 3040"
+  },
+  {
+    "competition": "AFLW",
+    "round": 4,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Geelong Cats",
+    "away_abbr": "CATS",
+    "start": "2025-09-07T15:05:00+10:00",
+    "end": "2025-09-07T17:05:00+10:00",
+    "venue": "Windy Hill, Cnr Napier & Brewster St, Essendon VIC 3040"
+  },
+  {
+    "competition": "AFLW",
+    "round": 5,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "St Kilda",
+    "away_abbr": "STK",
+    "start": "2025-09-14T13:05:00+10:00",
+    "end": "2025-09-14T15:05:00+10:00",
+    "venue": "Windy Hill, Cnr Napier & Brewster St, Essendon VIC 3040"
+  },
+  {
+    "competition": "AFLW",
+    "round": 7,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Kangaroos",
+    "away_abbr": "NORTH",
+    "start": "2025-09-26T15:05:00+10:00",
+    "end": "2025-09-26T17:05:00+10:00",
+    "venue": "Windy Hill, Cnr Napier & Brewster St, Essendon VIC 3040"
+  },
+  {
+    "competition": "AFLW",
+    "round": 8,
+    "home": "Melbourne",
+    "home_abbr": "MEL",
+    "away": "Essendon",
+    "away_abbr": "ESS",
+    "start": "2025-10-03T19:15:00+10:00",
+    "end": "2025-10-03T21:15:00+10:00",
+    "venue": "Ikon Park, 400 Royal Parade, Carlton North VIC 3054"
+  },
+  {
+    "competition": "AFLW",
+    "round": 9,
+    "home": "Western Bulldogs",
+    "home_abbr": "WB",
+    "away": "Essendon",
+    "away_abbr": "ESS",
+    "start": "2025-10-10T19:15:00+11:00",
+    "end": "2025-10-10T21:15:00+11:00",
+    "venue": "Whitten Oval, 417 Barkly St, Footscray VIC 3011"
+  },
+  {
+    "competition": "AFLW",
+    "round": 10,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Brisbane Lions",
+    "away_abbr": "LIONS",
+    "start": "2025-10-19T13:05:00+11:00",
+    "end": "2025-10-19T15:05:00+11:00",
+    "venue": "Windy Hill, Cnr Napier & Brewster St, Essendon VIC 3040"
+  },
+  {
+    "competition": "AFLW",
+    "round": 11,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Hawthorn",
+    "away_abbr": "HAW",
+    "start": "2025-10-25T15:05:00+11:00",
+    "end": "2025-10-25T17:05:00+11:00",
+    "venue": "Windy Hill, Cnr Napier & Brewster St, Essendon VIC 3040"
+  }
+]

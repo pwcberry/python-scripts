@@ -1,0 +1,57 @@
+[
+  {
+    "competition": "AFL",
+    "round": 14,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Geelong",
+    "away_abbr": "CATS",
+    "start": "2025-06-14T16:15:00+10:00",
+    "end": "2025-06-14T19:15:00+10:00",
+    "venue": "Melbourne Cricket Ground, Yarra Park, Jolimont, Melbourne VIC 3002"
+  },
+  {
+    "competition": "AFL",
+    "round": 19,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "GWS Giants",
+    "away_abbr": "GWS",
+    "start": "2025-07-17T19:30:00+10:00",
+    "end": "2025-07-17T22:30:00+10:00",
+    "venue": "Marvel Stadium, 740 Bourke St, Docklands VIC 3008"
+  },
+  {
+    "competition": "AFL",
+    "round": 20,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Western Bulldogs",
+    "away_abbr": "WB",
+    "start": "2025-07-25T19:20:00+10:00",
+    "end": "2025-07-25T22:20:00+10:00",
+    "venue": "Marvel Stadium, 740 Bourke St, Docklands VIC 3008"
+  },
+  {
+    "competition": "AFL",
+    "round": 22,
+    "home": "Geelong Cats",
+    "home_abbr": "CATS",
+    "away": "Essendon",
+    "away_abbr": "ESS",
+    "start": "2025-08-08T19:40:00+10:00",
+    "end": "2025-08-08T22:40:00+10:00",
+    "venue": "GMHBA Stadium, 370 Moorabool St, South Geelong VIC 3220"
+  },
+  {
+    "competition": "AFL",
+    "round": 23,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "St Kilda",
+    "away_abbr": "STK",
+    "start": "2025-08-15T19:20:00+10:00",
+    "end": "2025-08-15T22:20:00+10:00",
+    "venue": "Marvel Stadium, 740 Bourke St, Docklands VIC 3008"
+  }
+]
