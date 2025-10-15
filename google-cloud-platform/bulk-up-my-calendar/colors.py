@@ -5,7 +5,7 @@ import credentials
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 
 def fetch_colors():
-    creds = credentials.retrieve_gcp_credentials()
+    creds = credentials.retrieve_gcp_credentials(SCOPES)
 
     try:
         service = build("calendar", "v3", credentials=creds)

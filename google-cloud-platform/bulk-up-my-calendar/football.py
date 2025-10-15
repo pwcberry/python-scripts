@@ -10,7 +10,7 @@ SCOPES = [
 ]
 
 def main():
-    creds = credentials.retrieve_gcp_credentials()
+    creds = credentials.retrieve_gcp_credentials(SCOPES)
 
     football_matches = []
     with open("essendon-afl-2025.json", "r") as file:
