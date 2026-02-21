@@ -51,6 +51,7 @@ def main():
             o = {
                 "colorId": "7",
                 "created": now,
+                "eventType": "default",
                 "description": f"MSO Concert. Details to come.",
                 "end": {
                     "dateTime": event['end']
@@ -63,9 +64,18 @@ def main():
                 "summary": f"MSO: {event['title']}",
                 "attendees": [{
                     "email": "mandyquirk@gmail.com",
-                    "display": "Amanda Quirk",
+                    "displayName": "Amanda Quirk",
                     "responseStatus": "needsAction"
-                }]
+                }, {
+                    "email": "pwcberry@gmail.com",
+                    "displayName": "Peter Berry",
+                    "responseStatus": "accepted",
+                    "organizer": True
+                }],
+                "organizer": {
+                    "email": "pwcberry@gmail.com",
+                    "displayName": "Peter Berry"
+                }
             }
 
             print(f"Adding: '{o['summary']}'...")
