@@ -1,0 +1,93 @@
+[
+  {
+    "competition": "AFL",
+    "round": 1,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Hawthorn",
+    "away_abbr": "HAW",
+    "start": "2026-03-13T19:40:00+11:00",
+    "end": "2025-03-13T22:40:00+11:00",
+    "venue": "MCG"
+  },
+  {
+    "competition": "AFL",
+    "round": 3,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "North Melbourne",
+    "away_abbr": "NORTH",
+    "start": "2026-03-28T19:35:00+11:00",
+    "venue": "MARVEL"
+  },
+  {
+    "competition": "AFL",
+    "round": 4,
+    "away": "Essendon",
+    "away_abbr": "ESS",
+    "home": "Western Bulldogs",
+    "home_abbr": "WB",
+    "start": "2026-04-05T19:20:00+10:00",
+    "venue": "MARVEL"
+  },
+  {
+    "competition": "AFL",
+    "round": 7,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Collingwood",
+    "away_abbr": "COLL",
+    "start": "2026-04-25T15:15:00+10:00",
+    "venue": "MCG"
+  },
+  {
+    "competition": "AFL",
+    "round": 8,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Brisbane",
+    "away_abbr": "BRIS",
+    "start": "2026-05-02T12:35:00+10:00",
+    "venue": "MARVEL"
+  },
+  {
+    "competition": "AFL",
+    "round": 10,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Fremantle",
+    "away_abbr": "FRE",
+    "start": "2026-05-17T13:10:00+10:00",
+    "venue": "MARVEL"
+  },
+  {
+    "competition": "AFL",
+    "round": 11,
+    "away": "Essendon",
+    "away_abbr": "ESS",
+    "home": "Richmond",
+    "home_abbr": "RICH",
+    "start": "2026-05-22T19:40:00+10:00",
+    "venue": "MARVEL"
+  },
+  {
+    "competition": "AFL",
+    "round": 13,
+    "home": "Essendon",
+    "home_abbr": "ESS",
+    "away": "Carlton",
+    "away_abbr": "CARL",
+    "start": "2026-06-07T19:20:00+10:00",
+    "venue": "MARVEL"
+  },
+  {
+    "competition": "AFL",
+    "round": 14,
+    "away": "Essendon",
+    "away_abbr": "ESS",
+    "home": "Melbourne",
+    "home_abbr": "MEL",
+    "start": "2026-06-13T13:15:00+10:00",
+    "venue": "MARVEL"
+  }
+]
