@@ -3,6 +3,7 @@ import csv
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import credentials
+import cli
 
 SCOPES = [
     "https://www.googleapis.com/auth/calendar.events",
@@ -28,11 +29,11 @@ def get_end_time(start_time):
     return end_time.isoformat()
 
 
-def main():
+def main(data_source):
     creds = credentials.retrieve_gcp_credentials(SCOPES)
 
     mso_performances = []
-    with open("mso_concerts_2027.csv", "r") as file:
+    with open(data_source, "r") as file:
         csv_reader = csv.reader(file, delimiter=",")
         for row in csv_reader:
             is_summer_time = row[3] == "True"
@@ -94,4 +95,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(cli.parse_data_source("Add MSO concerts to Google Calendar.", ".csv"))

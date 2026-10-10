@@ -3,13 +3,14 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from datetime import timedelta, datetime, timezone
 import google_auth_oauthlib
+import cli
 
 SCOPES = [
     "https://www.googleapis.com/auth/calendar.events",
     "https://www.googleapis.com/auth/calendar.events.owned"
 ]
 
-def main():
+def main(data_source):
     with open("credentials.json", "r") as file:
         secrets = json.load(file)
 
@@ -17,12 +18,8 @@ def main():
         SCOPES, secrets["installed"]["client_id"], secrets["installed"]["client_secret"]
     )
 
-    performances = []
-
-    with open("malthouse-2027.json", "r") as file:
-        malthouse = json.load(file)
-        for show in malthouse:
-            performances.append(show)
+    with open(data_source, "r") as file:
+        performances = json.load(file)
 
     try:
         service = build("calendar", "v3", credentials=creds)
@@ -62,4 +59,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(cli.parse_data_source("Add Malthouse Theatre shows to Google Calendar.", ".json"))

@@ -4,6 +4,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from datetime import timedelta, datetime, timezone
 import google_auth_oauthlib
+import cli
 
 SCOPES = [
     "https://www.googleapis.com/auth/calendar.events",
@@ -19,7 +20,7 @@ GROUNDS = {
     "FOOTSCRAY": "Whitten Oval, 417 Barkly St, Footscray VIC 3011"
 }
 
-def main():
+def main(data_source):
     with open("credentials.json", "r") as file:
         secrets = json.load(file)
 
@@ -27,14 +28,8 @@ def main():
         SCOPES, secrets["installed"]["client_id"], secrets["installed"]["client_secret"]
     )
 
-    football_matches = []
-    # with open("essendon-afl-2026-2.json", "r") as file:
-    #     football_matches = json.load(file)
-
-    with open("essendon-aflw-2026.json", "r") as file:
-        aflw_matches = json.load(file)
-        for match in aflw_matches:
-            football_matches.append(match)
+    with open(data_source, "r") as file:
+        football_matches = json.load(file)
 
     try:
         service = build("calendar", "v3", credentials=creds)
@@ -73,4 +68,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(cli.parse_data_source("Add football matches to Google Calendar.", ".json"))
