@@ -9,10 +9,11 @@ SCOPES = [
     "https://www.googleapis.com/auth/calendar.events.owned"
 ]
 
-
 def get_location(venue):
     if venue == "MELBOURNE RECITAL CENTRE":
         return "Melbourne Recital Centre, 31 Sturt St, Southbank VIC 3006, Australia"
+    if venue == "IWAKI AUDITORIUM":
+        return "Iwaki Auditorium, 130 Southbank Blvd, Southbank VIC 3006, Australia"
 
     return "Hamer Hall, 100 St Kilda Rd, Southbank VIC 3004, Australia"
 
@@ -31,7 +32,7 @@ def main():
     creds = credentials.retrieve_gcp_credentials(SCOPES)
 
     mso_performances = []
-    with open("mso_concerts_2026.csv", "r") as file:
+    with open("mso_concerts_2027.csv", "r") as file:
         csv_reader = csv.reader(file, delimiter=",")
         for row in csv_reader:
             is_summer_time = row[3] == "True"

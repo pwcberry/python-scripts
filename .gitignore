@@ -161,6 +161,13 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode
+
 ### Python Patch ###
 # Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
 poetry.toml
@@ -173,6 +180,13 @@ pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
 
+# Miscellaneous
+.DS_Store
+CACHEDIR.TAG
+
 # Application
-credentials.json
-token.json
+# credentials.json
+# token.json
+google-cloud-platform/**/*.json
+google-cloud-platform/**/*.csv
+
